@@ -9,7 +9,7 @@ export default function NavBar() {
       <div className="l-main-nav__logo-container">
         <a href="#" className="">
           <img
-            src="../../assets/logo.png"
+            src="src/assets/logo.png"
             alt="logo"
             className="l-main-nav__logo"
           />
@@ -19,7 +19,7 @@ export default function NavBar() {
         <li>
           <a href="#" className="l-main-nav__link">
             <img
-              src="../../assets/france.svg"
+              src="src/assets/france.svg"
               alt="flag French"
               className="l-main-nav__img "
               onClick={() => toggleLang("FR")}
@@ -39,7 +39,7 @@ export default function NavBar() {
         <li>
           <a href="#" className="l-main-nav__link">
             <img
-              src="../../assets/united-kingdom.svg"
+              src="src/assets/united-kingdom.svg"
               alt="flag England"
               className="l-main-nav__img "
               onClick={() => toggleLang("EN")}
