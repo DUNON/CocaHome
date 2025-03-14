@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import canette from "../../assets/coca-01.png";
 import data from "../../assets/datas.js";
 import LangContext from "../../context/ThemeContext";
 import "./Contenu.css";
@@ -15,7 +16,7 @@ export default function Contenu() {
         <button className="btn-content">{data[lang].btn}</button>
       </div>
       <div className="item-right">
-        <img src="src\assets\coca-01.png" alt="canette" />
+        <img src={canette} alt="canette" />
       </div>
     </div>
   );
